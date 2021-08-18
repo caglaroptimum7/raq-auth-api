@@ -2,10 +2,10 @@
   "name": "raq-auth-api",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "build": "rm -rf dist && webpack --mode development",
-    "start": "node ./dist/server.js"
+    "start": "node ./dist/index.js"
   },
   "keywords": [],
   "author": "",

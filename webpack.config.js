@@ -4,12 +4,12 @@ const nodeExternals = require('webpack-node-externals')
 const HtmlWebPackPlugin = require("html-webpack-plugin")
 module.exports = {
     entry: {
-        server: './server.js',
+        server: './index.js',
     },
     output: {
         path: path.join(__dirname, 'dist'),
         publicPath: '/',
-        filename: '[name].js'
+        filename: 'index.js'
     },
     target: 'node',
     node: {
